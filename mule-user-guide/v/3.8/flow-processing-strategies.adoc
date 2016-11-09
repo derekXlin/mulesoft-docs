@@ -171,7 +171,7 @@ In addition, you can define a queue store using one of the following nested elem
 |default-persistent-queue-store |This is the default queue store used for persistent queues.
 |file-queue-store |A simple file queue store.
 |queue-store |A reference to a queue store defined elsewhere.
-|custom-queue-store |A custom queue store defined with Spring properties.
+|custom-queue-store |A custom queue store defined with Spring properties. You will also need to set the system property "mule.queue.objectstoremode=true" for the custom queue store to be used.
 |===
 
 === Creating an Asynchronous Processing Block
